@@ -267,16 +267,11 @@ Share this service by clicking on this official share link: https://api.whatsapp
     const INVALID_KEYWORD = "
 Sorry I am an automated system and didn't understand your reply. 
 
-Reply with a number (or emoji) at any time to get the latest information on the topic:
+TYPE YOUR COUNTRY OR COUNTRY CODE TO GET UPDATE
 
-1. Latest numbers 🔢
-2. Protect yourself 👍
-3. Your questions answered❓
-4. Mythbusters 🛑 
-5. Travel advice 🗺️
-6. News & Press 📰
+*FOR EXAMPLE Nigeria OR NG*
+*France OR FR*
 7. Share ⏩
-8. Donate now 🥰
     ";
 
     const DONATE = "

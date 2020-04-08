@@ -11,6 +11,7 @@ class CovidcasesRespondent extends Respondent
 {
     public static function shouldRespond($message)
     {
+        $message = ucwords($message);
         return in_array($message, config("countriesandcodes"));
     }
 
