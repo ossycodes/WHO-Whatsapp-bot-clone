@@ -11,7 +11,11 @@ class CovidcasesRespondent extends Respondent
 {
     public static function shouldRespond($message)
     {
-        $message = ucwords($message);
+        if (strlen($message) === 2) {
+            $message = strtoupper($message);
+        } else {
+            $message =  ucwords(strtolower($message));;
+        }
         return in_array($message, config("countriesandcodes"));
     }
 
