@@ -14,6 +14,6 @@ class GreetRespondent extends Respondent
 
     public function respond()
     {
-        return Conversations::GREET;
+        return Conversations::GREET_CUSTOM;
     }
 }

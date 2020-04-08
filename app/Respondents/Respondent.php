@@ -8,6 +8,6 @@ abstract class Respondent implements RespondentContract
 {
     public function __construct($message)
     {
-        $this->message = $message;
+        $this->countryOrCountryCode = $message;
     }
 }

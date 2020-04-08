@@ -36,8 +36,15 @@ class WHORespondentFactory
 
     protected function normalizeMessage($message)
     {
-        //trim and covert message to lowercase
-        return trim(strtolower($message));
+        if (strcasecmp($message, "hi") === 0) {
+            return trim(strtolower($message));
+        }
+
+        if (strlen($message) === 2) {
+            return strtoupper($message);
+        }
+
+        return $message;
     }
 
     public function resolveRespondent($message)

@@ -4,6 +4,20 @@ namespace App\Constants;
 
 class Conversations
 {
+
+const GREET_CUSTOM = "
+*Welcome to ASFALIS*
+
+GET COVID-19 CORONAVIRUS PANDEMIC UPDATE
+
+TYPE YOUR COUNTRY OR COUNTRY CODE TO GET UPDATE
+
+*FOR EXAMPLE Nigeria OR NG*
+*France OR FR*
+
+Send 7 to share ⏩ with families and friends
+";
+
     const GREET = "
 *Welcome to ASFALIS*
 
@@ -190,7 +204,7 @@ It is prudent for travellers who are sick to delay or avoid travel to affected a
 
 General recommendations for all travellers include:
 
-    🧼 Wash your hands frequently
+🧼 Wash your hands frequently
 
 👄 Avoid touching your eyes, mouth and nose
 
@@ -245,7 +259,7 @@ https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/
 
     const SHARE = "
 *ASFALIS*
-*Protect yourself, your family, friends and community*
+*GET COVID-19 CORONAVIRUS PANDEMIC UPDATE*
 
 Share this service by clicking on this official share link: https://api.whatsapp.com/send?phone=14155238886&text=join%20day-wear 
     ";
@@ -274,19 +288,12 @@ Donate here:
 https://www.facebook.com/donate/1564752357011737/10100167611916396/
     ";
 
-//     const MAIN_MENU = "
-// *What would you like to know about coronavirus?*
+    const COVID19_CASES = "
+*country* country_r
+*country-code* country_code
+*Confirmed* confirmed_r
+*Deaths* deaths_r
+*Recovered* recovered_r 
+";
 
-// Reply with a number (or emoji) at any time to get the latest information on the topic:
-
-// 1. Latest numbers 🔢
-// 2. Protect yourself 👍
-// 3. Your questions answered❓
-// 4. Mythbusters 🛑
-// 5. Travel advice 🗺️
-// 6. News & Press 📰
-// 7. Share ⏩
-// 8. Donate now 🥰
-// 9. Change language 🌐
-//     ";
 }
