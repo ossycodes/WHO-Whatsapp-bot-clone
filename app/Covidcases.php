@@ -2,12 +2,13 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
+use Rennokki\QueryCache\Traits\QueryCacheable;
 
 class Covidcases extends Model
 {
-    // use QueryCacheable;
+    use QueryCacheable;
 
     public $cacheFor = 3600;
 
