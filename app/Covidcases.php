@@ -7,6 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Covidcases extends Model
 {
+    // use QueryCacheable;
+
+    public $cacheFor = 3600;
+
     protected $guarded = [];
 
     protected $casts = [
