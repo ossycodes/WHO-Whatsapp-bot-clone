@@ -17,13 +17,6 @@ class WHOController extends Controller
     {
         $respondent = WHORespondentFactory::create();
 
-        // $h = request()->input("Body") == "🥰";
-        // logger($h);
-
-        // 🔢⏩🛑🗺️📰👍🏻🥰
-
-        // logger(request()->input('Body'));
-
         $messageResponse->message($respondent->respond());
 
         return response($messageResponse, 200)->header(

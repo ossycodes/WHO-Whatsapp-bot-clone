@@ -15,15 +15,15 @@ use App\Respondents\YourQuestionsAnsweredRespondent;
 return [
     "respondents" => [
         GreetRespondent::class,
-        // LatestNumbersRespondent::class,
-        // ProtectYourselfRespondent::class,
-        // YourQuestionsAnsweredRespondent::class,
-        // MythBustersRespondent::class,
-        // TravelAdviceRespondent::class,
-        // NewsAndPressRespondent::class,
-        ShareRespondent::class,
-        // DonateRespondent::class,
-        // MainMenuRespondent::class,
         CovidcasesRespondent::class,
+        LatestNumbersRespondent::class,
+        ProtectYourselfRespondent::class,
+        YourQuestionsAnsweredRespondent::class,
+        MythBustersRespondent::class,
+        TravelAdviceRespondent::class,
+        NewsAndPressRespondent::class,
+        ShareRespondent::class,
+        DonateRespondent::class,
+        MainMenuRespondent::class,
     ]
 ];

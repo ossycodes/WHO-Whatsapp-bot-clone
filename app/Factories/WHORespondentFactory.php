@@ -10,9 +10,7 @@ class WHORespondentFactory
 
     public function __construct($phonenumber, $message)
     {
-        //save phonenumber
-        // $this->saveContact($phonenumber);
-        //resolve respondent
+        $this->saveContact($phonenumber);
         $this->respondent = $this->resolveRespondent($message);
     }
 
@@ -28,7 +26,6 @@ class WHORespondentFactory
 
     public function saveContact($phonenumber)
     {
-        //save user's phoneumber
         return User::firstOrCreate([
             "phonenumber" => $phonenumber
         ]);

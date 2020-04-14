@@ -8,9 +8,9 @@ use Rennokki\QueryCache\Traits\QueryCacheable;
 
 class Covidcases extends Model
 {
-    use QueryCacheable;
+    // use QueryCacheable;
 
-    public $cacheFor = 3600;
+    // public $cacheFor = 3600;
 
     protected $guarded = [];
 
