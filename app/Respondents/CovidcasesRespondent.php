@@ -11,6 +11,9 @@ class CovidcasesRespondent extends Respondent
 {
     public static function shouldRespond($message)
     {
+        //comment this out to make it work for only covid cases
+        return false;
+        
         if (strlen($message) === 2) {
             $message = strtoupper($message);
         } else {
